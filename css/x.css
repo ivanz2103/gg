@@ -1,0 +1,120 @@
+body { 
+    background-color: rgb(10, 186, 186);
+  
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: blue;
+    border-radius: 5%;
+}
+
+.topnav a {
+    float: left;
+    color: rgb(234, 236, 241);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: rgb(9, 206, 32);
+    color:black;
+}
+
+.topnav a.active {
+    background-color: rgb(29, 189, 237);
+    color:  white;
+}
+
+.image {
+    background-image: url("../picture/g.jpg");
+    height: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.image-text {
+    text-align: center;
+    color: beige;
+}
+
+.title {
+    font-weight: bold;
+    color: #800080;
+    font-size: 45px;
+    text-align: center;
+    font-family: "Sofia", sans-serif;    
+}
+
+.gdf {
+    border: 2px solid purple;
+    border-radius: 10%;
+    padding: 20px;
+    width: 400px;
+    float: left;
+    height: 300px 200px;
+    text-align: center;
+    font-size: 45px;
+    color: rgb(0, 0, 0);
+}
+
+#right {
+    border: 1px solid black;
+    width: 20%;
+    float: hidden;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+#profile-image {
+    width: 100px;
+    border-radius: 50%;
+    border: 3px solid rgb(8, 108, 8);
+    text-align: center;
+    padding-top: 0px;
+}
+
+
+.side-article ul {
+    list-style-type: none;
+    padding-left: 0px
+}
+
+.side-article {
+    background-color: rgb(45, 15, 165);
+}
+
+footer {
+    width: 100%;
+    background-color: yellowgreen;
+    height: 5vh;
+    margin-top: 0px;   
+}
+
+footer div {
+    text-align: center;
+    color: red;
+}
+
+main {
+overflow: auto;
+}
+
+#first {
+    border: 3px solid black;
+    border-radius: 25%;
+    background-color: rgb(172, 168, 168);
+    width: 420px;
+    text-align: center;
+    padding-right: 20px;
+}
+
+.{
+    font-size:50px;
+}
